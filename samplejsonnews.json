@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "source": { "id": "new-york-magazine", "name": "New York Magazine" },
+      "author": "Devon Ivie",
+      "title": "Things Are Looking Up for Phil Collins and His Health",
+      "description": "Things are looking very much up for Phil Collins. The legend says he’s ‘totally mobile and healthy’ after several years of struggling with his health, although he still employs a 24-hour caregiver to assist him.",
+      "url": "https://www.vulture.com/article/phil-collins-health-interview.html",
+      "urlToImage": "https://pyxis.nymag.com/v1/imgs/782/401/2107fb7a6a5cae21a50d052826830c802e-phil-collins.1x.rsocial.w1200.jpg",
+      "publishedAt": "2026-01-21T21:46:14Z",
+      "content": "Two hearts, one very good update: Phil Collins is healthier than ever, stating in a new BBC podcast interview that hes feeling his best in years and considering a return to music. Its an ongoing thin… [+1699 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Jon Brodkin",
+      "title": "T-Mobile pays $16 million fine for three years’ worth of data breaches",
+      "description": "Breaches in three consecutive years lead to $16M fine and new security protocols.",
+      "url": "https://arstechnica.com/tech-policy/2024/10/t-mobile-pays-16-million-fine-for-three-years-worth-of-data-breaches/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/t-mobile-760x380.jpg",
+      "publishedAt": "2024-10-01T18:39:24+00:00",
+      "content": "45\r\nT-Mobile has agreed to pay a $15.75 million fine and improve its security in a settlement over a series of data breaches over three years that affected tens of millions of customers.\r\n\"T-Mobile s… [+2919 chars]"
+    },
+    {
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "The English - Official Teaser Trailer - IGN",
+      "description": "<section class=\"video-page\"><p>Check out the teaser trailer for The English, an upcoming Western drama series starring Emily Blunt and Chaske Spencer.</p><section data-transform=\"mobile-ad-break\"></section><p></p><p>An aristocratic Englishwoman, Lady Cornelia…",
+      "url": "https://www.ign.com/videos/the-english-official-teaser-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/theenglishofficialteasertrailer-ign-blogroll-1662054863253.jpg?width=1280",
+      "publishedAt": "2022-09-01T18:07:45.9970222Z",
+      "content": "Check out the teaser trailer for The English, an upcoming Western drama series starring Emily Blunt and Chaske Spencer.\r\nAn aristocratic Englishwoman, Lady Cornelia Locke (Blunt), and a Pawnee ex-cav… [+1134 chars]"
+    },
+    {
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "Trinity Trigger - Announcement Trailer - IGN",
+      "description": "<section class=\"video-page\"><section data-transform=\"mobile-ad-break\"></section><p>Watch the announcement trailer for Trinity Trigger to meet Cyan, Elise, Zantis. and the Triggers, who are companions who can transform into weapons. Get a peek at gameplay, the…",
+      "url": "https://www.ign.com/videos/trinity-trigger-announcement-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/trinitytriggerannouncementtrailer-ign-blogroll-1662053019546.jpg?width=1280",
+      "publishedAt": "2022-09-01T17:37:21.006331Z",
+      "content": "Watch the announcement trailer for Trinity Trigger to meet Cyan, Elise, Zantis. and the Triggers, who are companions who can transform into weapons. Get a peek at gameplay, the world, and more from t… [+110 chars]"
+    },
+    {
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "River City Girls 2: Villains Trailer - IGN",
+      "description": "<section class=\"video-page\"><section data-transform=\"mobile-ad-break\"></section><p>Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2,  including Sabuko (the &quot;disgraced daughter&quot;), Ken (the &quot;ric…",
+      "url": "https://www.ign.com/videos/river-city-girls-2-villains-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/08/31/rivercitygirls2villainstrailer-36190303-rivercitygirls2-villainstrailer-blogroll-1661974265062.jpg?width=1280",
+      "publishedAt": "2022-09-01T17:07:27.5493853Z",
+      "content": "Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2, including Sabuko (the \"disgraced daughter\"), Ken (the \"rich boy yakuza\"), and Sabu (the \"criminal… [+236 chars]"
+    },
+    {
+      "source": { "id": "aftenposten", "name": "Aftenposten" },
+      "author": "NTB-Johan Falnes",
+      "title": "Tik Tok installert på flere mobiler i regjeringen",
+      "description": "USA frykter at brukerdata fra Tik Tok kan bli overført til Kina. I Norge har flere i regjeringen lastet ned appen – inkludert statsminister Erna Solberg.",
+      "url": "https://www.aftenposten.no/norge/politikk/i/jdo5Le/Tik-Tok-installert-pa-flere-mobiler-i-regjeringen",
+      "urlToImage": "https://premium.vgc.no/ap/images/a189b15b-8b64-4e2e-a4a5-08ad9fa0315d?fit=crop&q=80&w=1440",
+      "publishedAt": "2020-07-09T05:07:23.894053Z",
+      "content": "smp-stories-top-widget\r\nMed mer enn to milliarder nedlastinger er Tik Tok blitt en av verdens mest populære apper. \r\nMen nå vokser skepsisen. India innførte forbud mot appen i forrige uke. USA vurder… [+3202 chars]"
+    }
+  ]
+}
