@@ -1,8 +1,3 @@
-Perfect boss 😎 — chalo tumhare **MA NewsLab React project** ke liye professional README file bana dete hain. Main ye full-featured rakhoon jo **GitHub repo pe ready** ho aur **project details, setup instructions, features** sab clear ho.
-
----
-
-````markdown
 # MA NewsLab
 
 **MA NewsLab** is a responsive news web application built with **React** and **Vite**.  
@@ -39,7 +34,7 @@ It allows users to browse news by categories, search for topics, and enjoy a mob
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/MA-NewsLab.git
+git clone https://github.com/ahsand871/MA-NewsLab.git
 ````
 
 2. Navigate to project folder:
