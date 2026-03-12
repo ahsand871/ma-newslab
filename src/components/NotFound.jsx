@@ -6,7 +6,7 @@ export default class NotFound extends Component {
     return (
       <>
             <div className={`alert custom-toast alert-info alert-dismissible fade show`} role="alert">
-                <strong>No Articles Found</strong>! Please try different keywords.
+                <strong>No Articles Found</strong>!
             </div>
             <div className="d-flex justify-content-center" style={{borderRadius : '25px'}}>
             <img

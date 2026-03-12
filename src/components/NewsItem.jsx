@@ -7,10 +7,10 @@ export class NewsItem extends Component {
       <>
         <div className="card" style={{ width: "22rem" }}>
           <img
-            src={imageUrl || "/no-image.jpg"}
+            src={imageUrl || `${import.meta.env.BASE_URL}/no-image.jpg`}
             onError={(e) => {
               e.target.onerror = null;
-              e.target.src = "/no-image.jpg";
+              e.target.src = `${import.meta.env.BASE_URL}no-image.jpg`;
             }}
             className="card-img-top"
             alt="image"
