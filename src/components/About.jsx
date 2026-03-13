@@ -30,7 +30,7 @@ export class About extends Component {
             </h1>
 
             <p style={{ lineHeight: "1.8", fontSize: "16px" }}>
-              MA NewsLab is a modern React-based web application designed to
+              MA NewsLab (Muhammad Ahsan's NewsLab) is a modern React-based web application designed to
               deliver real-time news updates from trusted sources around the
               world. The goal of this platform is to provide users with fast,
               reliable, and cleanly presented news content.

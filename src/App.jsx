@@ -41,17 +41,13 @@ export class App extends Component {
   };
 
   updateCategory = (category) => {
-    this.setState({ category, page: 1, searching: false }, () => this.news());
+    this.setState({ category, page: 1, searching: false });
     if (category === "general") {
       document.title = "MA NewsLab - Smart News. Clean Experience.";
       return;
     }
     let updatedTitle = category.charAt(0).toUpperCase() + category.slice(1);
     document.title = `MA NewsLab - ${updatedTitle}`;
-  };
-
-  updatePage = (newPage) => {
-    this.setState({ page: newPage }, () => this.news());
   };
 
   handleSearchClick = async () => {
