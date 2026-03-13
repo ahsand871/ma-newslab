@@ -54,7 +54,7 @@ export class App extends Component {
   handleSearchClick = async () => {
     this.setState({ progress: 15 });
     document.title = `MA NewsLab - ${this.state.searchInput}`;
-    let url = `https://gnews.io/api/v4/search?q=${this.state.searchInput}&apikey=${this.apiKey}`;
+    let url = `https://api.allorigins.win/raw?url=https://gnews.io/api/v4/search?q=${this.state.searchInput}&apikey=${this.apiKey}`;
     this.setState({ loading: true, searching: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -73,7 +73,7 @@ export class App extends Component {
 
   fetchMoreData = async () => {
     const nextPage = this.state.page + 1;
-    const url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=${nextPage}&apikey=${this.apiKey}`;
+    const url = `https://api.allorigins.win/raw?url=https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=${nextPage}&apikey=${this.apiKey}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     if(this.state.articles.length >=50){
@@ -98,7 +98,7 @@ export class App extends Component {
 
   news = async () => {
     this.setState({ progress: 15 });
-    let url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
+    let url = `https://api.allorigins.win/raw?url=https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
