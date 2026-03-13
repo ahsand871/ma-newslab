@@ -98,9 +98,10 @@ export class App extends Component {
 
   news = async () => {
     this.setState({ progress: 15 });
-    let url = `https://api.allorigins.win/raw?url=https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
+    const url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(apiUrl)}`;
     this.setState({ loading: true });
-    let data = await fetch(url);
+    let data = await fetch(proxyUrl);
     let parsedData = await data.json();
     if (parsedData.status === "error") {
       this.setState({ loading: false, notFound: true , progress: 100});
