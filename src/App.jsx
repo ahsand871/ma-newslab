@@ -21,20 +21,19 @@ export class App extends Component {
       notFound: false,
       hasMore: true,
       progress: 0,
-      key: "",
-      display: "home",
+      display: 'home'
     };
   }
 
   apiKey = import.meta.env.VITE_API_KEY;
 
-  setPage = (display) => {
-    this.setState({ display });
-  };
+  setPage = (display) =>{
+    this.setState({display});
+  }
 
-  setProgress = (progress) => {
-    this.setState({ progress });
-  };
+  setProgress = (progress) =>{
+    this.setState({progress});
+  }
 
   updateSearch = ({ searchInput }) => {
     this.setState({ searchInput });
@@ -42,7 +41,6 @@ export class App extends Component {
 
   updateCategory = (category) => {
     this.setState({ category, page: 1, searching: false });
-    console.log(category);
     if (category === "general") {
       document.title = "MA NewsLab - Smart News. Clean Experience.";
       return;
@@ -54,13 +52,12 @@ export class App extends Component {
   handleSearchClick = async () => {
     this.setState({ progress: 15 });
     document.title = `MA NewsLab - ${this.state.searchInput}`;
-    let url = `https://gnews.io/api/v4/search?q=${this.state.searchInput}&apikey=${this.apiKey}`;
-    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(apiUrl)}`;
+    let url = `https://newsapi.org/v2/top-headlines?q=${this.state.searchInput}&apiKey=${this.apiKey}`;
     this.setState({ loading: true, searching: true });
-    let data = await fetch(proxyUrl);
+    let data = await fetch(url);
     let parsedData = await data.json();
     if (parsedData.articles.length === 0) {
-      this.setState({ loading: false, notFound: true, progress: 100 });
+      this.setState({ loading: false, notFound: true, progress : 100 });
     } else {
       this.setState({
         articles: parsedData.articles,
@@ -74,17 +71,11 @@ export class App extends Component {
 
   fetchMoreData = async () => {
     const nextPage = this.state.page + 1;
-    const url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=${nextPage}&apikey=${this.apiKey}`;
-    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-    let data = await fetch(proxyUrl);
 
+    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.state.category}&apiKey=${this.apiKey}&page=${nextPage}&pagesize=15`;
+
+    let data = await fetch(url);
     let parsedData = await data.json();
-    if (this.state.articles.length >= 50) {
-      this.setState({
-        hasMore: false,
-      });
-      return;
-    }
     if (parsedData.articles.length === 0) {
       this.setState({
         hasMore: false,
@@ -101,19 +92,17 @@ export class App extends Component {
 
   news = async () => {
     this.setState({ progress: 15 });
-    const url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.state.category}&apiKey=${this.apiKey}&page=${this.state.page}&pagesize=15`;
     this.setState({ loading: true });
-    let data = await fetch(proxyUrl);
+    let data = await fetch(url);
     let parsedData = await data.json();
     if (parsedData.status === "error") {
-      this.setState({ loading: false, notFound: true, progress: 100 });
+      this.setState({ loading: false, notFound: true , progress: 100});
       <NotFound message={parsedData.message} code={parsedData.code} />;
     } else {
       this.setState({
         articles: parsedData.articles,
         totalArticles: parsedData.totalResults,
-        key: parsedData.articles.id,
         loading: false,
         hasMore: true,
         progress: 100,
@@ -132,12 +121,12 @@ export class App extends Component {
             updateCategory={this.updateCategory}
             handleSearchClick={this.handleSearchClick}
             setPage={this.setPage}
-            setProgress={this.setProgress}
+            setProgress = {this.setProgress}
           />
-          <LoadingBar
+          <LoadingBar 
             height={3}
-            color="#4fc3f7"
-            progress={this.state.progress}
+            color="#4fc3f7"  
+            progress={this.state.progress} 
           />
           {this.state.display === "home" && (
             <News
