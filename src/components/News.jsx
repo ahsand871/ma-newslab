@@ -10,7 +10,7 @@ export class News extends Component {
   async componentDidUpdate(props) {
     if (props.category !== this.props.category) {
       this.setState({ loading: true });
-      let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pagesize=${this.props.pagesize}`;
+      let url = `https://gnews.io/api/v4/top-headlines?category=${this.props.category}&lang=en&country=pk&max=15&page=${this.props.page}&apikey=${this.props.apiKey}`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
@@ -81,7 +81,7 @@ export class News extends Component {
                           : "To be continued"
                       }
                       newsUrl={element.url}
-                      imageUrl={element.urlToImage}
+                      imageUrl={element.image}
                       publishedAt={
                         element.publishedAt
                           ? new Date(element.publishedAt).toGMTString()

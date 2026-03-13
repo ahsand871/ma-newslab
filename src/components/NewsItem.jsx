@@ -21,7 +21,7 @@ export class NewsItem extends Component {
             <p className="text-body-secondary">
               Pulished At: {publishedAt} by {source}
             </p>
-            <p className="text-body-secondary">Author : {author}</p>
+            {/* <p className="text-body-secondary">Author : {author}</p> */}
             <a
               href={newsUrl}
               target="_blank"

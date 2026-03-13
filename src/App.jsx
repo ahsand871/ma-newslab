@@ -5,7 +5,6 @@ import News from "./components/News";
 import NotFound from "./components/NotFound";
 import LoadingBar from "react-top-loading-bar";
 import About from "./components/About";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export class App extends Component {
   static propTypes = {};
@@ -22,6 +21,7 @@ export class App extends Component {
       notFound: false,
       hasMore: true,
       progress: 0,
+      key: '',
       display: 'home'
     };
   }
@@ -42,6 +42,7 @@ export class App extends Component {
 
   updateCategory = (category) => {
     this.setState({ category, page: 1, searching: false });
+    console.log(category)
     if (category === "general") {
       document.title = "MA NewsLab - Smart News. Clean Experience.";
       return;
@@ -53,7 +54,7 @@ export class App extends Component {
   handleSearchClick = async () => {
     this.setState({ progress: 15 });
     document.title = `MA NewsLab - ${this.state.searchInput}`;
-    let url = `https://newsapi.org/v2/top-headlines?q=${this.state.searchInput}&apiKey=${this.apiKey}`;
+    let url = `https://gnews.io/api/v4/search?q=${this.state.searchInput}&apikey=${this.apiKey}`;
     this.setState({ loading: true, searching: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -72,11 +73,15 @@ export class App extends Component {
 
   fetchMoreData = async () => {
     const nextPage = this.state.page + 1;
-
-    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.state.category}&apiKey=${this.apiKey}&page=${nextPage}&pagesize=15`;
-
+    const url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=${nextPage}&apikey=${this.apiKey}`;
     let data = await fetch(url);
     let parsedData = await data.json();
+    if(this.state.articles.length >=50){
+      this.setState({
+        hasMore:false
+      })
+      return;
+    }
     if (parsedData.articles.length === 0) {
       this.setState({
         hasMore: false,
@@ -93,7 +98,7 @@ export class App extends Component {
 
   news = async () => {
     this.setState({ progress: 15 });
-    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.state.category}&apiKey=${this.apiKey}&page=${this.state.page}&pagesize=15`;
+    let url = `https://gnews.io/api/v4/top-headlines?category=${this.state.category}&lang=en&country=pk&max=15&page=1&apikey=${this.apiKey}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -104,6 +109,7 @@ export class App extends Component {
       this.setState({
         articles: parsedData.articles,
         totalArticles: parsedData.totalResults,
+        key: parsedData.articles.id,
         loading: false,
         hasMore: true,
         progress: 100,
