@@ -52,7 +52,7 @@ export class Navbar extends Component {
                   this.updateCategoryNavbar("general");
                   this.handlePage("home");
                 }}
-                to="/"
+                to="/ma-newslab/"
               >
                 <img
                   src={newsIcon}
