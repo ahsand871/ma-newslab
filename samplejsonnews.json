@@ -1,160 +1,66 @@
 {
-  "information": {
-    "realTimeArticles": {
-      "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
-    }
-  },
-  "totalArticles": 239718,
+  "status": "ok",
+  "totalResults": 6,
   "articles": [
     {
-      "id": "788b0725c79dfd78494dca0061c50e04",
-      "title": "GMA Countdown to Easter",
-      "description": "GMA Countdown to Easter",
-      "content": "Join us as we prepare our hearts for Easter with these uplifting music specials leading up to Resurrection Sunday!\nIn the lead up to Easter, celebrate Christian Music Month with these amazing programs on TBN! Watch HERE.\nTBN Easter Specials\nLooking f... [602 chars]",
-      "url": "https://gospelmusic.org/news/gma-countdown-to-easter-1",
-      "image": "https://gospelmusic.org/hubfs/CowntowntoEaster_2026_PR-Header.jpg",
-      "publishedAt": "2026-03-02T22:45:00Z",
-      "lang": "en",
-      "source": {
-        "id": "309fc0808913e90cd98c7955e6baab29",
-        "name": "GMA - Gospel Music Association",
-        "url": "https://gospelmusic.org"
-      }
+      "source": { "id": "new-york-magazine", "name": "New York Magazine" },
+      "author": "Devon Ivie",
+      "title": "Things Are Looking Up for Phil Collins and His Health",
+      "description": "Things are looking very much up for Phil Collins. The legend says he’s ‘totally mobile and healthy’ after several years of struggling with his health, although he still employs a 24-hour caregiver to assist him.",
+      "url": "https://www.vulture.com/article/phil-collins-health-interview.html",
+      "urlToImage": "https://pyxis.nymag.com/v1/imgs/782/401/2107fb7a6a5cae21a50d052826830c802e-phil-collins.1x.rsocial.w1200.jpg",
+      "publishedAt": "2026-01-21T21:46:14Z",
+      "content": "Two hearts, one very good update: Phil Collins is healthier than ever, stating in a new BBC podcast interview that hes feeling his best in years and considering a return to music. Its an ongoing thin… [+1699 chars]"
     },
     {
-      "id": "fc72694b26cb4218f5ce24d176c4803f",
-      "title": "Vintage Nerds, Abercrombie Has Finally Heard Our Cries",
-      "description": "Short of scouring the aftermarket yourself, the A&F archive line is the fastest way to score a rugged gem from the brand's '90s-era heyday.",
-      "content": "The mall-brand renaissance has admittedly cooled off over the last six months, but it’s still one of the most reliable ways to pop into a store and cop solid basics for the low. One label that continues to serve up some of the best cropped hoodies an... [2092 chars]",
-      "url": "https://www.gq.com/story/abercrombie-and-fitch-archive-collection",
-      "image": "https://media.gq.com/photos/69a5d9b19a18c640ab172b43/16:9/w_1280,c_limit/AF-Archive-lede-art.jpg",
-      "publishedAt": "2026-03-02T21:50:26Z",
-      "lang": "en",
-      "source": {
-        "id": "2a57fbb84313e5d738d9e6e317634114",
-        "name": "GQ",
-        "url": "https://www.gq.com"
-      }
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Jon Brodkin",
+      "title": "T-Mobile pays $16 million fine for three years’ worth of data breaches",
+      "description": "Breaches in three consecutive years lead to $16M fine and new security protocols.",
+      "url": "https://arstechnica.com/tech-policy/2024/10/t-mobile-pays-16-million-fine-for-three-years-worth-of-data-breaches/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/t-mobile-760x380.jpg",
+      "publishedAt": "2024-10-01T18:39:24+00:00",
+      "content": "45\r\nT-Mobile has agreed to pay a $15.75 million fine and improve its security in a settlement over a series of data breaches over three years that affected tens of millions of customers.\r\n\"T-Mobile s… [+2919 chars]"
     },
     {
-      "id": "421a130bca053b589bea0be0b31a8ad0",
-      "title": "Tom Ellis and Nick Gehlfuss Play Opposites on ‘CIA’-But They’re Surprisingly Similar Off-Screen (Exclusive)",
-      "description": "'CIA' is the newest drama airing on CBS. The show's stars Tom Ellis and Nick Gehlfuss opened up about their bond on and off-screen with Good Housekeeping.",
-      "content": "It’s a rainy day in New York City when Tom Ellis and Nick Gehlfuss step into the offices of Good Housekeeping.\nI’ve been a fan of both actors for so long (Tom is famous for playing the Devil on Lucifer; Nick’s last gig was portraying Will Halstead on... [3064 chars]",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/tom-ellis-nick-gehlfuss-play-211146517.html",
-      "image": "https://s.yimg.com/ny/api/res/1.2/g4atuaVsEdlQwNG3jY1cZw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/good_housekeeping_561/6ffa3454806ca639d5ed918f0d35237e",
-      "publishedAt": "2026-03-02T21:11:46Z",
-      "lang": "en",
-      "source": {
-        "id": "99e8a2cb4638bb798cf9167e5af5b83b",
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      }
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "The English - Official Teaser Trailer - IGN",
+      "description": "<section class=\"video-page\"><p>Check out the teaser trailer for The English, an upcoming Western drama series starring Emily Blunt and Chaske Spencer.</p><section data-transform=\"mobile-ad-break\"></section><p></p><p>An aristocratic Englishwoman, Lady Cornelia…",
+      "url": "https://www.ign.com/videos/the-english-official-teaser-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/theenglishofficialteasertrailer-ign-blogroll-1662054863253.jpg?width=1280",
+      "publishedAt": "2022-09-01T18:07:45.9970222Z",
+      "content": "Check out the teaser trailer for The English, an upcoming Western drama series starring Emily Blunt and Chaske Spencer.\r\nAn aristocratic Englishwoman, Lady Cornelia Locke (Blunt), and a Pawnee ex-cav… [+1134 chars]"
     },
     {
-      "id": "d535280d1507865c796b70aa7a5f1dbc",
-      "title": "Jim Carrey Did Not Send an Impostor to Accept His César Award",
-      "description": "Music, Film, TV and Political News Coverage",
-      "content": "Last week, Jim Carrey was in Paris for the César Awards, France’s national film prize and one of its highest honours. The comedy great was recognised with an Honorary César and he met the occasion by delivering an acceptance speech entirely in French... [2705 chars]",
-      "url": "https://au.rollingstone.com/movies/movie-news/jim-carrey-rep-impostor-clone-rumors-cesar-awards-91829/",
-      "image": "https://images.thebrag.com/cdn-cgi/image/fit=crop,width=1200,height=628/https://images-r2-1.thebrag.com/rs/uploads/2026/03/jim-carrey-cesar-awards-feb-2026-getty-aus.jpg",
-      "publishedAt": "2026-03-02T20:54:50Z",
-      "lang": "en",
-      "source": {
-        "id": "db94bfbc9f54999be28781a5e3a39665",
-        "name": "au.rollingstone.com",
-        "url": "https://au.rollingstone.com"
-      }
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "Trinity Trigger - Announcement Trailer - IGN",
+      "description": "<section class=\"video-page\"><section data-transform=\"mobile-ad-break\"></section><p>Watch the announcement trailer for Trinity Trigger to meet Cyan, Elise, Zantis. and the Triggers, who are companions who can transform into weapons. Get a peek at gameplay, the…",
+      "url": "https://www.ign.com/videos/trinity-trigger-announcement-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/trinitytriggerannouncementtrailer-ign-blogroll-1662053019546.jpg?width=1280",
+      "publishedAt": "2022-09-01T17:37:21.006331Z",
+      "content": "Watch the announcement trailer for Trinity Trigger to meet Cyan, Elise, Zantis. and the Triggers, who are companions who can transform into weapons. Get a peek at gameplay, the world, and more from t… [+110 chars]"
     },
     {
-      "id": "85461b38e41ae84a0495820946cac957",
-      "title": "Sarah Ferguson downfall is result of her ‘bad side,’ spills expert",
-      "description": "Sarah Ferguson has majorly been destroyed by her extravagant lifestyle, it is revealed.The ex wife of Andrew Mountbatten Windsor, who is now exiled from the Royal Lodge, has always had an...",
-      "content": "Sarah Ferguson has majorly been destroyed by her extravagant lifestyle, it is revealed.\nThe ex wife of Andrew Mountbatten Windsor, who is now exiled from the Royal Lodge, has always had an ‘endearing’ personality.\nRoyal expert Ingrid Seward says: \"Sh... [735 chars]",
-      "url": "https://www.thenews.com.pk/latest/1394364-sarah-ferguson-downfall-is-result-of-her-bad-side-spills-expert",
-      "image": "https://www.thenews.com.pk/assets/uploads/2026-03-03/1394364_023030_updates.jpg",
-      "publishedAt": "2026-03-02T20:48:48Z",
-      "lang": "en",
-      "source": {
-        "id": "d6d8d1da5b3ea3eb10f02262522a0d6d",
-        "name": "The News International",
-        "url": "https://www.thenews.com.pk"
-      }
+      "source": { "id": "ign", "name": "IGN" },
+      "author": null,
+      "title": "River City Girls 2: Villains Trailer - IGN",
+      "description": "<section class=\"video-page\"><section data-transform=\"mobile-ad-break\"></section><p>Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2,  including Sabuko (the &quot;disgraced daughter&quot;), Ken (the &quot;ric…",
+      "url": "https://www.ign.com/videos/river-city-girls-2-villains-trailer",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/08/31/rivercitygirls2villainstrailer-36190303-rivercitygirls2-villainstrailer-blogroll-1661974265062.jpg?width=1280",
+      "publishedAt": "2022-09-01T17:07:27.5493853Z",
+      "content": "Renowned developer WayForward and ArcSystemWorks introduce you to the villains of River City Girls 2, including Sabuko (the \"disgraced daughter\"), Ken (the \"rich boy yakuza\"), and Sabu (the \"criminal… [+236 chars]"
     },
     {
-      "id": "94eee9abbacfe1a4fa6859bbef7ce63f",
-      "title": "‘Best Medicine’ Renewed for Season 2 at Fox",
-      "description": "Fox has renewed its dramedy ‘Best Medicine’ for a second season in 2026-27 after a strong showing in its first run.",
-      "content": "Fox is making another appointment with Best Medicine.\nThe network has renewed the dramedy starring Josh Charles for a second season in 2026-27. The pickup is not much a surprise, as Best Medicine has put up very solid ratings through its first season... [1772 chars]",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/best-medicine-renewed-season-2-fox-1236519631/",
-      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/03/Josh-Charles-in-Best-Medicine-on-Fox-and-Eliza-Coupe-Split-Getty-H-2026.jpg?w=1296&h=730&crop=1",
-      "publishedAt": "2026-03-02T20:47:12Z",
-      "lang": "en",
-      "source": {
-        "id": "58f309465dc77c95e88cbb1d72f55e72",
-        "name": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com"
-      }
-    },
-    {
-      "id": "95d4fe2009ffea8c8a919f02d4274ed6",
-      "title": "What's Next for Sophie in 'Bridgerton' Season 5, According to Yerin Ha",
-      "description": "Yerin Ha stars in season four of \"Bridgerton\" as Sophie Baek, Benedict Bridgerton's love interest.",
-      "content": "When \"Bridgerton\" star Yerin Ha logs on to our Zoom interview, she's fresh-faced and smiling at me from a sunny hotel room. A rack of clothes peeks out behind her, and I suspect somewhere in the room is the red set designed by Prabal Gurung that she ... [9915 chars]",
-      "url": "https://www.businessinsider.com/whats-next-for-sophie-bridgerton-season-5-yerin-ha-2026-3",
-      "image": "https://i.insider.com/699e03e1df1f09368aaaad57?width=1200&format=jpeg",
-      "publishedAt": "2026-03-02T20:01:00Z",
-      "lang": "en",
-      "source": {
-        "id": "3349d5cc8abff1623266825fbe6b0f68",
-        "name": "Business Insider",
-        "url": "https://www.businessinsider.com"
-      }
-    },
-    {
-      "id": "3cd0c35f78ff9be795e7cb3acbb21204",
-      "title": "‘Industry’ Creators on How Yasmin’s ‘Exploitation’ Line Defines the Series",
-      "description": "Plus, why Marisa Abela was terrified for that to be Yasmin's last line if the show hadn't been renewed.",
-      "content": "Yasmin (Marisa Abela) said something devastatingly dark in the Industry Season 4 finale, a scene that marks a major shift for the character, but unfortunately, it’s not all that surprising.\nHarper (Myha’la) and Yasmin reunited in Paris after Yasmin’s... [5926 chars]",
-      "url": "https://www.yahoo.com/entertainment/tv/articles/industry-creators-yasmin-exploitation-line-195839820.html",
-      "image": "https://s.yimg.com/ny/api/res/1.2/njIIg.Ex1knGwiWyc4eVxg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzQ7Y2Y9d2VicA--/https://media.zenfs.com/en/tv_insider_639/8eecc3dfd9934a1513c4b017327ee8ff",
-      "publishedAt": "2026-03-02T19:58:39Z",
-      "lang": "en",
-      "source": {
-        "id": "99e8a2cb4638bb798cf9167e5af5b83b",
-        "name": "Yahoo",
-        "url": "https://www.yahoo.com"
-      }
-    },
-    {
-      "id": "d41248d6d1fe6fa12bf9fba2326d6199",
-      "title": "Why Maggie Gyllenhaal Tried To ‘Separate’ Herself From Brother Jake Gyllenhaal Early In Their Careers",
-      "description": "Maggie Gyllenhaal opens up about why she kept her distance from Jake early on and the complicated emotion she didn’t recognize at the time.",
-      "content": "For much of her career, Maggie Gyllenhaal has gravitated toward complicated women. In her best films, from Secretary to The Deuce to her Oscar-nominated turn in the wonderful country music film Crazy Heart, and now as the writer-director of the ambit... [2278 chars]",
-      "url": "https://www.cinemablend.com/movies/why-maggie-gyllenhaal-tried-to-separate-herself-jake-gyllenhaal-early-in-careers",
-      "image": "https://cdn.mos.cms.futurecdn.net/CTXrjmbUVPaQUf6RRTxhmR-1280-80.jpg",
-      "publishedAt": "2026-03-02T19:34:24Z",
-      "lang": "en",
-      "source": {
-        "id": "627241624d06c05195ac3b6f4268882d",
-        "name": "Cinemablend",
-        "url": "https://www.cinemablend.com"
-      }
-    },
-    {
-      "id": "c440269437453d8867bf23a589848c19",
-      "title": "Opera Australia Announces 2026 Orchestra Fellows",
-      "description": "This year’s Patricia H. Reid Fellowship has selected five emerging string players from around Australia.",
-      "content": "Offering exceptional career development opportunities for outstanding national string players, Opera Australia’s (OA) Patricia H. Reid Orchestral Fellowships has selected five artists to join its orchestra for 12 months.\nThe 2026 artists are violinis... [1166 chars]",
-      "url": "https://theviolinchannel.com/opera-australia-announces-2026-orchestra-fellows/",
-      "image": "https://theviolinchannel.com/wp-content/uploads/2026/03/VC-Images-Template-5.jpg",
-      "publishedAt": "2026-03-02T18:57:01Z",
-      "lang": "en",
-      "source": {
-        "id": "603d5429fa56a8d55b746060a37a2c1d",
-        "name": "The Violin Channel",
-        "url": "https://theviolinchannel.com"
-      }
+      "source": { "id": "aftenposten", "name": "Aftenposten" },
+      "author": "NTB-Johan Falnes",
+      "title": "Tik Tok installert på flere mobiler i regjeringen",
+      "description": "USA frykter at brukerdata fra Tik Tok kan bli overført til Kina. I Norge har flere i regjeringen lastet ned appen – inkludert statsminister Erna Solberg.",
+      "url": "https://www.aftenposten.no/norge/politikk/i/jdo5Le/Tik-Tok-installert-pa-flere-mobiler-i-regjeringen",
+      "urlToImage": "https://premium.vgc.no/ap/images/a189b15b-8b64-4e2e-a4a5-08ad9fa0315d?fit=crop&q=80&w=1440",
+      "publishedAt": "2020-07-09T05:07:23.894053Z",
+      "content": "smp-stories-top-widget\r\nMed mer enn to milliarder nedlastinger er Tik Tok blitt en av verdens mest populære apper. \r\nMen nå vokser skepsisen. India innførte forbud mot appen i forrige uke. USA vurder… [+3202 chars]"
     }
   ]
 }
